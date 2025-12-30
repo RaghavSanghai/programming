@@ -34,6 +34,7 @@ print (s1.isidentifier()) # Output: False
 print (s2.ljust(10))    # Output: "python    "
 print (s1.rjust(15))    # Output: "     hello world"
 print (s2.partition("y")) # Output: ('p', 'y', 'thon')
+print(list(s2))      # Output: ['p', 'y', 't', 'h', 'o', 'n']
 
 s = s1 + s2
 print(s)
