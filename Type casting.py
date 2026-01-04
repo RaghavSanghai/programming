@@ -20,3 +20,14 @@ s="hello"
 print(int(s))        # Raises ValueError
 print(float(s))      # Raises ValueError   
 
+x = "pie"
+y = 3.14
+print (x + y)   # Raises TypeError
+print (x + str(y))  # Output: "pie3.14"
+
+p = "10"
+q = "2.5"
+print (p + q)        # Output: "102.5"
+print (int(p) + float(q))  # Output: 12.5
+
+
